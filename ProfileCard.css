@@ -1,0 +1,134 @@
+/* General Styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #7b1fa2, #d81b60);
+}
+
+.container .main-card{
+    background: #fff;
+    width: 400px;
+    /* margin-left: 0px; */
+    margin-top: -70px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+
+.container img {
+    background: #ffffff;
+    border-radius: 100%;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 4px solid #bf24c1;
+    /* filter: blur(.5px); */
+
+}
+
+.profile {
+    display: block;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+}
+
+.card1 h2{
+    color: #8810a0;
+}
+
+.card2 {
+    width: 300px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.social-icons{
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    line-height: 40px;
+    padding: 0px 92px;
+    /* filter: blur(20px);
+    width: 120px;
+    height: 120px; */
+    /* backdrop-filter: blur(100%); */
+}
+.profile-icons .fb{
+    display: inline-block;
+    color: #1e35e8;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    margin-left: -30px;
+}
+.profile-icons .twitter{
+    display: inline-block;
+    color: #1eb6e8;
+    justify-content: space-evenly;
+    padding: 0px 0px 15px;
+    margin-left: 5px;
+}
+.profile-icons .instagram{
+    display: inline-block;
+    color: #b518a5;
+    justify-content: space-evenly;
+    /* padding: 0px 0px 15px; */
+    margin-left: 30px;
+}
+.profile-icons .behance{
+    display: inline-block;
+    color: #18b581;
+    justify-content: space-evenly;
+    /* padding: 0px 0px 15px; */
+    margin-left: 30px;
+}
+
+.profile-icons .github{
+    display: inline-block;
+    color: #2d2f2e;
+    justify-content: space-evenly;
+    /* padding: 0px 0px 15px; */
+    margin-left: 30px;
+}
+.profile-icons .linkedIn{
+    display: inline-block;
+    color: #1114bf;
+    justify-content: space-evenly;
+    /* padding: 0px 0px 15px; */
+    margin-left: 30px;
+}
+.profile-buttons .message{
+    background: linear-gradient(45deg, #3694e1, #8b13af);
+    border: 1px solid aliceblue;
+    padding: 5px 30px 5px 30px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    /* backdrop-filter: blur(90); */
+}
+
+.profile-buttons .follow{
+    background: linear-gradient(45deg, #a21f7b, #e32626);
+    border: 1px solid aliceblue;
+    padding: 5px 30px 5px 30px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: inset 0px px 40px 40px #ea8347;
+    cursor: pointer;
+}
